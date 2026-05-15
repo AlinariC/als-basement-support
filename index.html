@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Al's Basement Support</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0c111d;
+      --panel: #151d2b;
+      --text: #edf5ff;
+      --muted: #9fb0c3;
+      --accent: #56f2cf;
+      --gold: #ffde59;
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at 25% 0%, #1a2840 0, var(--bg) 42rem);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    main {
+      width: min(840px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 72px 0;
+    }
+    h1 {
+      font-size: clamp(2.4rem, 6vw, 4.8rem);
+      line-height: 0.95;
+      margin: 0 0 18px;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin-top: 34px;
+      color: var(--gold);
+    }
+    p, li {
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    a {
+      color: var(--accent);
+    }
+    .card {
+      background: color-mix(in srgb, var(--panel) 84%, transparent);
+      border: 1px solid color-mix(in srgb, var(--accent) 24%, transparent);
+      border-radius: 8px;
+      padding: 22px;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Al's Basement</h1>
+    <p>Support for the offline macOS platformer about a kid, a dream basement, and fifty rooms of trouble.</p>
+
+    <section class="card">
+      <h2>Controls</h2>
+      <ul>
+        <li>Move: Arrow keys or WASD</li>
+        <li>Jump / swim / fly up: Space, W, Up, or controller jump button</li>
+        <li>Fire laser: J, K, or configured controller fire button</li>
+        <li>Pause and options: Escape or O</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Controller Support</h2>
+      <p>Al's Basement supports keyboard play and common PlayStation, Xbox, and Nintendo controller button layouts. Controller buttons can be remapped from the in-game options screen.</p>
+    </section>
+
+    <section class="card">
+      <h2>Help</h2>
+      <p>If you run into a problem, include your macOS version, controller model if one is connected, and what room or floor you were playing.</p>
+      <p>Contact: support page maintained by Alinari Campbell.</p>
+    </section>
+
+    <section class="card">
+      <h2>Privacy</h2>
+      <p>Al's Basement does not collect personal data. Read the <a href="privacy.html">privacy policy</a>.</p>
+    </section>
+  </main>
+</body>
+</html>
